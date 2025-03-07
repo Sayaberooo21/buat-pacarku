@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>HBD Sayang</title>
+</head>
+
+<body>
+    <div class="card">
+        <div class="imgBox">
+            <div class="bark"></div>
+            <img src="c:\Users\lenovo\Downloads\xixixixi.jpg">
+        </div>
+        <div class="details">
+            <audio id="linkmp3" src="c:\Users\lenovo\Music\lagu-anugrah-terindah.mp3"></audio>
+            <h4 class="color1">Anugrah terindah</h4>
+            <p>Ku ingin kau jadi milikku</p>
+            <p>Temani diriku</p>
+            <p>Seumur hidupku dan ku</p>
+            <p>Berjanji tak akan sakiti</p>
+            <p>Kau yang ku cinta sepenuh hati</p>
+            <p>Biarkan semua manusia</p>
+            <p>jadi saksi nyata</p>
+            <p>Bahwa memilikimu adalah</p>
+            <p> Anugerah terindah</p>
+            <p>Untuk diriku</p>
+            <p><em>Love you forever Nissa ku Sayangggg ❤</em></p>
+        </div>
+    </div>
+    
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        let audio = document.getElementById("linkmp3");
+        document.body.addEventListener("click", function() {
+            audio.play().catch(error => console.log("Autoplay blocked, user must interact first"));
+        }, { once: true });
+    });
+    </script>
+</body>
+
+</html>
